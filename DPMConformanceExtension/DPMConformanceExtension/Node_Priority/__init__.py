@@ -1,0 +1,1 @@
+from DPMConformanceExtension.Node_Priority import activity_num, status_num
