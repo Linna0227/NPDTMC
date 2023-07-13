@@ -6,6 +6,7 @@
   非分布式调用在DPMCConformanceExtension的nodistributedtesting.py中。
 
 2.spark平台提交示例如下： bin/spark-submit --master spark://master:7077 --executor-memory 1G /home/hadoop/Projects/DPMConformanceExtension/DDPMC/distributedtesting.py prAm6 hdfs://master:9000/prAm6.txt 2 4 1
+
 其中，/home/hadoop/Projects/DPMConformanceExtension/DDPMC/distributedtesting.py是运行的代码文件，prAm6是本地流程模型文件名，hdfs://master:9000/prAm6.txt是事件日志，2是分解参数，4是Partition参数，1是实验次数（由于进行三次实验取平均，所以范围为1-3）。
 
 3.实验数据在data文件夹中，实验结果在result文件夹中
